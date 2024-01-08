@@ -11,6 +11,7 @@ health_checker(): Handles the main functionality of the health assistant. It con
 Option 1: Initiates a symptom checking conversation using predefined patterns and responses.
 Option 2: Allows the user to ask questions about the chatbot. It engages in a conversation based on predefined pairs of questions and responses.
 Option 3: Quits the program.
+
 Execution:
 
 If the script is run directly (if name == "main":), it calls health_checker() to start the assistant.
@@ -28,6 +29,7 @@ Conversations:
 
 The program uses the Chat class from NLTK to converse with the user using predefined patterns and responses.
 Depending on the user's input, it matches patterns and generates appropriate responses.
+
 Looping:
 
 The program operates in a loop, allowing the user to select options until they choose to quit.
@@ -35,4 +37,5 @@ The program operates in a loop, allowing the user to select options until they c
 Farewell Meassages:
 
 "Goodbye! Feel free to return if you have more questions." and "You're welcome! Remember, laughter is the best medicine. Take care! (type 'quit' to exit)" are the farewell massages included in the code.
+
 Overall, the code presents a menu-driven health assistant that engages in conversations based on user choices, offering assistance with symptoms or providing information about the chatbot's capabilities.
